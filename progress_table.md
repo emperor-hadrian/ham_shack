@@ -36,3 +36,19 @@ https://www.hamradiosecrets.com/off-center-fed-dipole.html
 Dimensions: total length = 300 / 3.75 / 2 = 40 meters
 Feedpoint: 22.5% offset means 9 meters and 31 meters
 Conversion to 'Murican units: 29.5 ft, 101.7 ft
+
+## 80 meters dipole for CW
+
+Center at lower part of band: 3.51 MHz, 85.47 meters WL, dipole is 42.73 meters total, 21.4 meters or 70 ft per element
+
+## Quarter wave vertical for 10 meters (plain), lower bands w/ loading coil
+
+Loading coil calculator: https://m0ukd.com/calculators/loaded-quarter-wave-antenna-inductance-calculator/
+
+Another one: https://www.66pacific.com/calculators/coil-shortened-vertical-antenna-calculator.aspx
+
+The feedpoint will be at ground level, possible balun for common mode/matching.
+
+Loading coil: Right at feedpoint for verticle element, highest setting (for 1.8 MHz) should be 207 uH or 148 depending on the calculator
+
+TODO: Number and langth of radials
