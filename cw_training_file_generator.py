@@ -1,5 +1,6 @@
 # To be uploaded to https://gavinford.net/cw
 
+
 from random import randint
 
 FILE_NAME = "cw_training.txt"

@@ -1,0 +1,8 @@
+Starting at 11.6 V
+@2A: 11:25 - 14:25
+@2A: 14:52 - 15:23
+@1A: 15:23 - 15:27
+@1A: 15:30 - 15:31
+Ending at 13.8 V (after settled)
+
+Total: 2*3+2*(31/60)+(4/60)+(1/60) = 7.1 Ah, lower then the advertised 10 Ah

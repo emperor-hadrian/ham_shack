@@ -7,13 +7,14 @@
 | ATU-100 tuner | Bad | Not assembled | Assemble it |
 | NanoVNA | Good | - | - |
 | DIY Tuner | Good | - | - |
-| Battery Pack | Not yet obtained | - | Get parts |
+| Battery Pack | Good | - | - |
 | Solar panel | Not yet obtained | - | Get it |
-| MISC Connectors | Bad | Need power connectors | Get power connectors |
-| Antenna + Feedline | Not yet obtained | - | Make dipole/rigging, buy coax feedline |
+| MISC Connectors | Good | - | - |
+| Antenna + Feedline | Good | - | - |
 | Waterproof box | Not yet obtained | - | - |
-| Dummy load | Not yet obtained | - | Get it |
-| 1:1 Balun | Not yet obtained | - | Make it |
+| Dummy load | Not great | Only 1W | Upgrade |
+| 1:1 Balun | Good | - | - |
+| USB C Buck converter | Not built | - | Build it |
 
 ## Shopping list
 

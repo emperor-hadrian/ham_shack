@@ -4,6 +4,10 @@
 
 * Image rejection: https://rahsoft.com/2021/08/21/how-to-remove-the-image-signal-in-heterodyne-receiver/
 * Filter calculator: https://markimicrowave.com/technical-resources/tools/lc-filter-design-tool/
+* Mixers: https://blog.minicircuits.com/a-quick-guide-to-mixer-topologies/
+* IQ Mixing video: https://www.microwaves101.com/encyclopedias/i-q-mixers
+* RX image-reject demo: https://www.desmos.com/calculator/maszbj538v
+* Practical electronics for inventors: https://archive.org/details/fe_Practical_Electronics_For_Inventors/page/150/mode/1up
 
 ## Design requirements
 
@@ -14,14 +18,7 @@
 
 ## Receiver
 
-2-stage heterodyne for the purpose of image rejection.
-Widest band is 10m at 1.7 MHz
-
-RF -> HPF, selectable by band -> X (Band shifted to start at 1 MHz) -> LC filter in-band sweep -> X -> Audio 600 Hz fixed LC filter -> Audio out
-(VFO A, band min - 1 MHz) -------^
-(VFO B, in-band sweep from 1 MHz to 2.7 MHz (- sidetone)) ----------------------------------------^
-
-The choice of the start frequency of the shifted band (1 MHz) is a compromise between the initial image-reject HPF and the highest frequency going into the 2nd mixer (which makes the 2nd image-reject filter need to have a higher Q).
+I&Q Image reject mixer
 
 ## Transmitter
 
@@ -29,12 +26,11 @@ VFO TX -> Power MOSFETs -> Low pass filter to remove harmonics (selectable by ba
 
 ## VFOs
 
-There are 3 VFOs, all voltage controlled by a microcontroller. The digital display shows the frequency of VFO TX.
+There are 2 VFOs, both voltage controlled by a microcontroller. The digital display shows the frequency of VFO A.
 Discrete logic ICs will be used to frequency-count all VFOs which will be read by the microcontroller in a feedback loop to adjust the control voltages.
 The timing reference will be a crystal oscillator, possibly GPS in the future.
 
 | Name | Freq range (MHz) | Purpose |
 | - | - | - |
-| VFO A | 0.8 - 27 | Band start - 1 MHz for initial mixer |
-| VFO B | 0.9994 - 1.6994 | In-band sweep to generate 600 Hz sidetone |
-| VFO TX | 1.8 - 29.7 | TX |
+| VFO A | 1.8 - 29.7 | TX |
+| VFO B | 1.7994 - 29.6996 | RX LO for 600 Hz sidetone |
