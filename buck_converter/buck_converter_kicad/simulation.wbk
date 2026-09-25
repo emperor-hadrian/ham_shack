@@ -4,7 +4,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 300m",
+        ".tran 1u 200m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -37,11 +37,29 @@
         },
         {
           "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 0.058977505112474446,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
           "signal": "V(/pid_output)",
           "trace_type": 257
         },
         {
           "color": "rgb(166, 86, 40)",
+          "cursor2": {
+            "position": 0.06089875762174656,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
           "signal": "V(/proportional_plus_integral)",
           "trace_type": 257
         }
