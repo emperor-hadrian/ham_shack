@@ -102,3 +102,33 @@ gepcog
 
 me: repeat
 
+7.009, me CQ, W1YK
+
+them: w1yk d aa 9s e aa 4an aa4s n e c
+
+me: repeat
+
+them: de aa4sn aa4sn
+
+Me: aa4sn
+
+them: w1yk ne aa4sn rst r 5 7n qth ncnc nme ck bu qk hw dw 1 kdea4sn kn
+
+me: QTH worcester mass usa name hadrian
+
+them: rr de aa 4s n tnx a ia nf7 qs obt tn or qso [bt] w1yk de aa4sn kn
+
+me: slower
+
+them: de aa4sn tn xad an for qso ? 7 est tnx qso w1yk de aa4sn tu
+
+me: what about qso wiyk
+
+them: de aa4sn tn? or qso? 73 73 de aa4sn tu
+
+me: yes qso w1yk 73 73
+
+them:  ts ee
+
+7.009, me CQ, W1YK
+them: 

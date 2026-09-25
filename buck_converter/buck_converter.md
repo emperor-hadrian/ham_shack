@@ -25,3 +25,6 @@ Inductor: L = Vout * (Vin - Vout) / (DeltaIL * fs * Vin) = 185 uH
 Where DeltaIL = L ripple current = 0.3 * Iout = 1.8 A
 
 Capacitors: Ceramic Low ESR (equivalent series resistance) X5R dielectric or better
+
+1/CW=X
+C=1/WX
