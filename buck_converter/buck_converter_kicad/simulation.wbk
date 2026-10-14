@@ -4,7 +4,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 200m",
+        ".tran 1u 500m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",

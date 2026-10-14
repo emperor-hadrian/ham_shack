@@ -4881,7 +4881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "200n"
 			(at 191.262 63.246 0)
 			(effects
 				(font
@@ -5564,7 +5564,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "3u"
 			(at 154.94 102.108 90)
 			(effects
 				(font

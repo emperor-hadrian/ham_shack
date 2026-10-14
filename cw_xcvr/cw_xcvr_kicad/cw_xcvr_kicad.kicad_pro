@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "circuit.kicad_pro",
+    "filename": "cw_xcvr_kicad.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,8 +410,12 @@
   },
   "sheets": [
     [
-      "c635225b-b261-4414-81d7-1fbf6a8027dd",
+      "710f9002-633c-4d46-8981-ef547e2e22c1",
       "Root"
+    ],
+    [
+      "474e2322-2f97-4ba2-bb95-6859d066cb0c",
+      "iq_mixer_rx"
     ]
   ],
   "text_variables": {}
