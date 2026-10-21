@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 198.12 26.67)
-		(size 49.53 33.02)
+		(size 29.21 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "iq_mixer_rx.kicad_sch"
-			(at 198.12 60.2746 0)
+			(at 198.12 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,28 +40,8 @@
 			)
 		)
 		(pin "GND" input
-			(at 198.12 57.15 180)
+			(at 198.12 31.75 180)
 			(uuid "5a822781-6e0f-4e76-9d70-68cfe7125475")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LO_RX_in_phase" input
-			(at 198.12 44.45 180)
-			(uuid "44c8700e-a13b-418e-8302-975fee337fee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LO_RX_quadrature" input
-			(at 198.12 46.99 180)
-			(uuid "a9cd6254-bf83-4cf5-8cb4-b568694efc40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,8 +60,38 @@
 			)
 		)
 		(pin "RF_RX" input
-			(at 198.12 33.02 180)
+			(at 198.12 35.56 180)
 			(uuid "944c609d-003c-483b-996d-f470d6db4bda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_out" input
+			(at 227.33 35.56 0)
+			(uuid "ade9484a-8f8f-4d26-bf01-84fa62a9caef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LO_RX_double" input
+			(at 198.12 38.1 180)
+			(uuid "0fcaf830-9c82-4f0c-8c80-48dff22744fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sideband_select" input
+			(at 198.12 40.64 180)
+			(uuid "62ae3705-0254-42f3-8207-b2cebb7e88b1")
 			(effects
 				(font
 					(size 1.27 1.27)
