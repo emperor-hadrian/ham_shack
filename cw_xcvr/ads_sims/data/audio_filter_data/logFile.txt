@@ -1,0 +1,16 @@
+
+hpeesofsim (*) 631.update0.1 Sep  8 2025, MINT version 5
+    (64-bit windows built: Mon Sep 08, 2025 20:46:19 -0700)
+
+***** Simulation started at Sat Oct 24 15:21:02 2026
+      Running on host: "AK317A-15"
+      In Directory: "C:\Users\hfward\ham_shack\cw_xcvr\ads_sims\data"
+      Process ID: 12660
+
+
+SP SP1[1] <ads_sims_lib:audio_filter:schematic>   freq=(400 Hz->1 kHz)
+
+
+Resource usage:
+  Total stopwatch time     =    50.84 seconds.
+
